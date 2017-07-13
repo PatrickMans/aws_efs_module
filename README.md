@@ -7,7 +7,7 @@ Modified to deliver IP address as output
 
 ```hcl
 module "efs_mount" {
-  source = "github.com/manheim/tf_efs_mount"
+  source = "github.com/relybv/aws_efs_module"
 
   name    = "my-efs-mount"
   subnets = "subnet-abcd1234,subnet-efgh5678"
