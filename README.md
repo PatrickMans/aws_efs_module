@@ -23,6 +23,7 @@ The following arguments are supported:
 - ``name`` - (Required) The reference_name of your file system. Also, used in tags.
 - ``subnets`` - (Required) A comma separated list of subnet ids where mount targets will be.
 - ``vpc_id`` - (Required) The VPC ID where NFS security groups will be.
+- ``vpc_net_cidr`` - CIDR of the VPC (for security groups)
 
 ## Attribute Reference
 
