@@ -1,6 +1,7 @@
 # TF_EFS_MOUNT
 
 Provides an EFS file system, mount targets and security groups.
+Modified to deliver IP address as output 
 
 ## Usage
 
@@ -33,4 +34,5 @@ The following attributes are exported:
 - ``mount_target_interface_ids`` - A comma separated list of network interface ids.
 - ``ec2_security_group_id`` - The ID of the security group to apply to EC2 instances.
 - ``mnt_security_group_id`` - The ID of the security group applied to mount targets.
+- ``mount_address`` - The IP address of the storage.
 
